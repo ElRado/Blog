@@ -19,3 +19,18 @@ body {
     
 }
 
+#title {
+    font-size: 29pt;
+}
+
+#postone{
+    height:300px;
+    width:500px;
+}
+
+#recent{
+
+    
+    width:10%;
+
+}
