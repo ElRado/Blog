@@ -1,4 +1,5 @@
 body {
+    margin:30px;
     background-image: linear-gradient(rgba(2,0,36,100), rgba(60,27,154,100), rgba(255,255,255,0));
     background-repeat: no-repeat;
     height:700px;
@@ -19,8 +20,23 @@ body {
     
 }
 
-#title {
-    font-size: 29pt;
+.my-container{
+    border:3px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.my-row{
+    border: 3px;
+    border-style: solid;
+    border-color: green;
+    height: 500px;
+}
+
+.my-col{
+    border: 3px;
+    border-style: solid;
+    border-color: orange;
 }
 
 #postone{
@@ -29,8 +45,22 @@ body {
 }
 
 #recent{
+    background-image: linear-gradient(rgba(2,0,36,100), rgba(176, 146, 233, 1), rgba(255,255,255,20));
+height: 50%;
+border-style: solid;
+border-color: black;
+text-align: center;
+border-radius: 25px;
+margin-right: 25px;
 
+}
+
+#boxxy{
+    background-image: linear-gradient(rgba(2,0,36,100), rgba(176, 146, 233, 1), rgba(255,255,255,20));
+    height: 50%;
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+    border-radius: 25px;
     
-    width:10%;
-
 }
