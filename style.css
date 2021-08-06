@@ -46,12 +46,31 @@ body {
 
 #recent{
     background-image: linear-gradient(rgba(2,0,36,100), rgba(176, 146, 233, 1), rgba(255,255,255,20));
-height: 50%;
+height: 80%;
+width:75%;
 border-style: solid;
 border-color: black;
+margin: 80px;
+padding-top: 20px;
 text-align: center;
-border-radius: 25px;
-margin-right: 25px;
+border-radius: 10%;
+
+
+}
+
+#recenttwo{
+    background-image: linear-gradient(rgba(2,0,36,100), rgba(176, 146, 233, 1), rgba(255,255,255,20));
+height: 50%;
+width:20%;
+color: white;
+border-style: solid;
+border-color: black;
+margin-left: 150px;
+margin-top: 80px;
+padding:20px;
+text-align: center;
+border-radius: 10%;
+
 
 }
 
