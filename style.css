@@ -1,17 +1,14 @@
 body {
-    margin:30px;
+    
     background-image: linear-gradient(rgba(2,0,36,100), rgba(60,27,154,100), rgba(255,255,255,0));
     background-repeat: no-repeat;
-    height:700px;
+    margin-bottom: 200px;
 }
 
 .navbar {
     background: rgba(0, 0, 0, 0.781);
     color:white;
     font: 18px Arial, sans-serif;
-    height: 144px;
-    
-    
 }
 
 #logo {
@@ -19,11 +16,12 @@ body {
     width:170px;
     
 }
-
+/*
 .my-container{
     border:3px;
     border-style: solid;
     border-color: blue;
+    
 }
 
 .my-row{
@@ -38,6 +36,7 @@ body {
     border-style: solid;
     border-color: orange;
 }
+*/
 
 #postone{
     height:300px;
@@ -50,8 +49,8 @@ height: 80%;
 width:75%;
 border-style: solid;
 border-color: black;
-margin: 80px;
-padding-top: 20px;
+margin: 60px;
+padding:10px;
 text-align: center;
 border-radius: 10%;
 
@@ -83,3 +82,20 @@ border-radius: 10%;
     border-radius: 25px;
     
 }
+
+#footbox{
+    background-image: linear-gradient(rgba(176, 146, 250, 100), rgba(2,0,36,200) );
+height: 100px;
+}
+
+.footer {
+    position:fixed;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  /* #foottext{
+    padding-left: 20px;
+    margin:75px;
+  } -->
