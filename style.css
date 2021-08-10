@@ -41,11 +41,21 @@ body {
 #postone{
     color: white;
     height:300px;
-    width:500px;
+    width:600px;
     border: black;
     border-style: solid;
     box-shadow: 2px 2px purple;
 }
+
+#postpostone{
+    color: white;
+    height:50%;
+    width:50%;
+    border: black;
+    border-style: solid;
+    box-shadow: 2px 2px purple;
+}
+
 
 #recent{
 background-image: linear-gradient(rgba(2,0,36,100), rgba(176, 146, 233, 1), rgba(255,255,255,20));
