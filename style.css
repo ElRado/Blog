@@ -39,12 +39,16 @@ body {
 */
 
 #postone{
+    color: white;
     height:300px;
     width:500px;
+    border: black;
+    border-style: solid;
+    box-shadow: 2px 2px purple;
 }
 
 #recent{
-    background-image: linear-gradient(rgba(2,0,36,100), rgba(176, 146, 233, 1), rgba(255,255,255,20));
+background-image: linear-gradient(rgba(2,0,36,100), rgba(176, 146, 233, 1), rgba(255,255,255,20));
 height: 80%;
 width:75%;
 border-style: solid;
@@ -53,6 +57,8 @@ margin: 60px;
 padding:10px;
 text-align: center;
 border-radius: 10%;
+box-shadow: 2px 2px purple;
+    
 
 
 }
@@ -69,6 +75,8 @@ margin-top: 80px;
 padding:20px;
 text-align: center;
 border-radius: 10%;
+box-shadow: 2px 2px purple;
+    
 
 
 }
@@ -81,11 +89,14 @@ border-radius: 10%;
     text-align: left;
     border-radius: 25px;
     
+    
 }
 
 #footbox{
     background-image: linear-gradient(rgba(176, 146, 250, 100), rgba(2,0,36,200) );
 height: 100px;
+border-style: solid;
+border-bottom: black;
 }
 
 .footer {
@@ -93,6 +104,7 @@ height: 100px;
     width: 100%;
     color: white;
     text-align: center;
+    
   }
   
   /* #foottext{
