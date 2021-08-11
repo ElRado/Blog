@@ -16,7 +16,7 @@ body {
     width:170px;
     
 }
-
+/*
 .my-container{
     border:3px;
     border-style: solid;
@@ -36,6 +36,7 @@ body {
     border-style: solid;
     border-color: orange;
 }
+*/
 
 
 #postone{
@@ -125,6 +126,23 @@ margin-top: 80px;
 text-align: center;
 
 }
+
+#fgc{
+    height: 300px;
+   width: 300px;
+   border-style: solid;
+   border-color: black;
+   float: right;
+   margin-right: 63px;
+   text-align: center;
+   
+   }
+
+   #contact{
+       background-color: blueviolet;
+       width:50%;
+       margin-left: 90px;
+   }
 
 #footbox{
     background-image: linear-gradient(rgba(176, 146, 250, 100), rgba(2,0,36,200) );
