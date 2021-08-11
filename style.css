@@ -16,7 +16,7 @@ body {
     width:170px;
     
 }
-/*
+
 .my-container{
     border:3px;
     border-style: solid;
@@ -36,7 +36,7 @@ body {
     border-style: solid;
     border-color: orange;
 }
-*/
+
 
 #postone{
     color: white;
@@ -54,6 +54,18 @@ body {
     border: black;
     border-style: solid;
     box-shadow: 2px 2px purple;
+}
+
+#categories{
+    color: white;
+    height:300px;
+    width:500px;
+    border: black;
+    border-style: solid;
+    box-shadow: 2px 2px purple;
+    opacity: 80%;
+   
+
 }
 
 
@@ -100,6 +112,18 @@ box-shadow: 2px 2px purple;
     border-radius: 25px;
     
     
+}
+
+#pageimage{
+ height: 300px;
+width: 300px;
+border-style: solid;
+border-color: black;
+margin-left: 150px;
+margin-top: 80px;
+
+text-align: center;
+
 }
 
 #footbox{
