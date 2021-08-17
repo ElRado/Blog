@@ -13,21 +13,26 @@
     <title>Home</title>
 </head>
 <body>
+
 <!--header goes here-->
-<div class="container-fluid">
+
+<div class="container-fluid navbar_container">
   <div class="row">
-  <ul class="navbar align-items-center col-md-12 col-sm-12">
+    <div class="col-md-3">
     <img src="./images/El Rado.png" class="img-fluid float-start" id="logo" alt="raven logo">
-        <a class="nav-link text-white" aria-current="page" href="/index.html">Home</a>
+    </div>
+
+  <ul class="navbar align-items-center col-md-9 col-sm-12">
+       <li><a class="nav-link text-white" aria-current="page" href="/index.html">Home</a>
       </li>
       
-        <a class="nav-link text-white" href="/blog.html">Blog</a>
+        <li><a class="nav-link text-white" href="/blog.html">Blog</a>
       </li>
       
-        <a class="nav-link text-white" href="/page.html">Contact</a>
+       <li> <a class="nav-link text-white" href="/page.html">Contact</a>
       </li>
   
-        <a class="nav-link text-white" href="/post.html" tabindex="-1">About</a>
+       <li> <a class="nav-link text-white" href="/post.html">About</a>
       </li>
       <div class="header-social-links d-flex justify-content-center">
         <a href="https://www.instagram.com" class="instagram img-fluid"><i class="fab fa-instagram fa-3x m-3"></i></a>
@@ -76,27 +81,29 @@
               <div class="col-md-7 col-sm-7 my-col">
             
             <h3 class="title m-6 text-white"> <u>Updated Tier Lists for GG: Strive</u></h3>
-            <img src="/images/my-image.png" class="m-3 img-fluid" id="homeposttwo" alt="opening post">
+            <img src="/images/my-image.png" class=" img-fluid" id="homeposttwo" alt="opening post">
             <p class="maintext text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
               </div>
 <!--community bar-->
-            <div id="recenttwo" class="title col-md-4 col-sm-4 ">
-                <p><u>Community</u></p>
-                
-                <div class="header-social-links d-flex justify-content-center">
-                  <a href="https://www.instagram.com" class="instagram"><i class="fab fa-instagram fa-2x m-3"></i></a>
-                  <a href="https://www.twitter.com" class="twitter"><i class="fab fa-discord fa-2x m-3"></i></a>
-                  <a href="https://www.facebook.com" class="facebook"><i class="fab fa-facebook-square fa-2x m-3"></i></a>
-                </div>
-                <div class="input-group rounded">
-                  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                    aria-describedby="search-addon" />
-                  <span class="input-group-text border-0" id="search-addon">
-                    <i class="fas fa-search"></i>
-                  </span>
-                </div>
-              </div>
-             </div>
+<div class="title col-md-5 col-sm-5 p-3 my-col d-flex justify-content-center align-items-center">
+      
+  <div class="communitybox" id="postrecenttwo">
+    <p><u>Community</u></p>
+    
+    <div class="justify-content-center">
+      <a href="https://www.instagram.com" class="instagram"><i class="fab fa-instagram fa-2x m-2"></i></a>
+      <a href="https://www.twitter.com" class="twitter"><i class="fab fa-discord fa-2x m-2"></i></a>
+      <a href="https://www.facebook.com" class="facebook"><i class="fab fa-facebook-square fa-2x m-2"></i></a>
+    </div>
+    <div class="input-group rounded">
+      <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+        aria-describedby="search-addon" />
+      <span class="input-group-text border-0" id="search-addon">
+        <i class="fas fa-search"></i>
+      </span>
+    </div>
+  </div>
+</div> 
 
           <div class="row my-row">
             <div class="col-md-6 col-sm-6 my-col text-white">
@@ -124,22 +131,22 @@
 <!--footer is here-->
 <footer class="fixed-bottom " id="footbox">
       
-  <div class="footer d-flex justify-content-center text-white">© 2021 Copyright: 
+  <div class="footer d-flex justify-content-center text-white">
     <a href="index.html"> </a>
   </div>
   <br>
 
 <div class="container-fluid">
 <div class="row align-items-end">
-<div class="col-md-4  " id="foottext">
-<a class="text-white m-3 p-3" aria-current="page" href="">Home</a>
+<div class="col-md-4" id="foottext">
+<a class="text-white m-2 p-3" aria-current="page" href="">Home</a>
 
 <a class="text-white m-3" href="">Blog</a>
 
 <a class="text-white m-3" href="">Contact</a>
 
 
-<a class="text-white m-3" href="">About</a>
+<a class="text-white m-2" href="">About</a>
 
 </div>
   <div class="col-md-4  d-flex justify-content-center align-items-end" id="footicons">
