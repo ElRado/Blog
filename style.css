@@ -4,7 +4,7 @@ body {
     
     background-image: linear-gradient(rgba(2,0,36,100), rgba(60,27,154,100), rgba(255,255,255,0));
     background-repeat: no-repeat;
-    margin-bottom: 200px;
+    
 }
 
 .navbar_container {
@@ -23,7 +23,7 @@ body {
     width:170px;
     
 }
-
+/*
 .my-container{
     border:3px;
     border-style: solid;
@@ -42,10 +42,11 @@ body {
     border: 3px;
     border-style: solid;
     border-color: orange;
-}
+}*/
 
 .title{
     font-family: 'IM Fell English SC', serif;
+    
 }
 
 #postone{
@@ -62,7 +63,7 @@ body {
 #homeposttwo{
     color: white;
     height:300px;
-    width:400px;
+    width:500px;
     border: black;
     border-style: solid;
     box-shadow: 2px 2px purple;
@@ -128,13 +129,28 @@ background-image: linear-gradient(rgba(2,0,36,100), rgba(176, 146, 233, 1), rgba
 color: white;
 border-style: solid;
 border-color: black;
-width: 40%;
-height: 60%;
+width: 50%;
+height: 55%;
 text-align: center;
 border-radius: 10%;
+margin-right: 50px;
 box-shadow: 2px 2px purple;
     
 }
+
+
+#homerecenttwo{
+    background-image: linear-gradient(rgba(2,0,36,100), rgba(176, 146, 233, 1), rgba(255,255,255,20));
+    color: white;
+    border-style: solid;
+    border-color: black;
+    width: 40%;
+    height: 55%;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 2px 2px purple;
+        
+    }
 
 @media (max-width:1000px){
     #postrecenttwo{
@@ -205,8 +221,6 @@ text-align: center;
    width: 300px;
    border-style: solid;
    border-color: black;
-   float: right;
-   margin-right: 50px;
    text-align: center;
    
    }
@@ -219,20 +233,29 @@ text-align: center;
 
    #cards{
        
-       height:500px;
-       width:94%;
-       margin: 40px;
+       height:300px;
+       width:500px;
        border-style: solid;
    }
 
    .card{
        background-image: linear-gradient(rgba(2,0,36,100), rgba(176, 146, 233, 1), rgba(255,255,255,20));
+       height:auto;
+       width:50%;
    }
+
+   @media (max-width:1000px){
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+}
    
 
 #footbox{
     background-image: linear-gradient(rgba(176, 146, 250, 100), rgba(2,0,36,200) );
-height: 100px;
+height: 110px;
+position: static;
 
 border-style: solid;
 border-bottom: black;
@@ -240,7 +263,7 @@ border-bottom: black;
 
 .footer {
     position:fixed;
-    width: auto;
+    width: 100%;
     color: white;
     text-align: center;
     font-family: 'IM Fell English SC', serif;
